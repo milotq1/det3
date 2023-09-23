@@ -1,0 +1,35 @@
+.travel-container {
+    background-color: #F7F7F2;
+
+    .travel-wrapper {
+        max-width: 928px;
+        background-color: #F7F7F2;
+
+
+        .hero1-wrapper {
+
+           .title-wrapper {
+
+            margin: 0 0 96px;
+
+
+            h1 {
+                color: #141414;
+                font-size: 67px;
+            }
+
+           }
+        }
+
+        .image-wrapper {
+            background-image: radial-gradient(100% 50% at 50% 0,#f5eaeb 2%,#ebeada00 98%),radial-gradient(100% 50% at 50% 100%,#ede9e4 1%,#f4f0e100 99%),linear-gradient(0deg,#f8eff1 3%,#fdf3f4);
+            background-position: 0 0,0 0,0 0;
+            background-size: 100% 100%;
+        }
+
+        .list-wrapper {
+
+        }
+    }
+
+}

@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.dining-container {
+
+    background-color: #141414;
+    padding: 256px 24px 232px;
+
+    .dining-wrapper {
+        max-width: 928px;
+        background-color: transparent;
+        margin: 0 auto;
+        color: #F7F7F2;
+
+        .title-container {
+            padding: 0 0 176px;
+
+            .title-wrapper {
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 0 104px;
+
+
+                h1 {
+                    text-align: center;
+                    color: #F7F7F2;
+                    font-size: 97px;
+
+                }
+
+            }
+
+            .title2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                h1 {
+                    font-size: 36px;
+                }
+
+                p {
+                    color: #FFFFFF66;
+                    text-align: center;
+                    font-size: 36px;
+                    // opacity: .5;
+                    letter-spacing: -.36px;
+                    line-height: 140%;
+                }
+
+
+            }
+        }
+
+        .horses-wrapper {
+            box-sizing: border-box;
+            margin-bottom: 0;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin: 0 0 96px;
+
+            img {
+                align-items: center;
+                max-width: 60%;
+                justify-content: center;
+                border-radius: 20px;
+            }
+        }
+
+
+        .list-container {
+
+            display: grid;
+            row-gap: 88px;
+            align-items: center;
+            justify-content: center;
+            // margin: 176px 0 0;
+            border-bottom: 1px solid #FFFFFF66;
+            padding-bottom: 88px;
+            margin: 0 0 176px;
+
+            .list-wrapper {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                border-top: 1px solid #FFFFFF66;
+                row-gap: 88px;
+                flex-wrap: wrap;
+
+
+
+
+
+                .list-center {
+                    margin-top: 88px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+
+
+                    .list-title {
+                        width: 50%;
+                        text-align: start;
+
+                        p {
+                            text-align: start;
+                            font-size: 28px;
+                            color: #F7F7F2;
+                        }
+                    }
+
+                    .list-desc {
+                        width: 50%;
+                        text-align: start;
+
+                        p {
+                            font-size: 24px;
+                            color: #FFFFFF66;
+                        }
+                    }
+                }
+            }
+        }
+
+        .img-container {
+
+            .img1 {
+
+                img {
+                    max-width: 100%;
+                    border-radius: 20px;
+                }
+
+                p {
+                    font-size: 10px;
+                    padding: 15px 0;
+                }
+            }
+
+            .imgimg {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                column-gap: 2rem;
+
+
+                .img2 {
+                    width: 50%;
+                    padding-right: 5px;
+
+                    img {
+                        max-width: 100%;
+
+                        border-radius: 20px;
+                    }
+
+                    p {
+                        font-size: 10px;
+                        padding: 15px 0;
+                    }
+                }
+
+                .img3 {
+                    width: 50%;
+                    padding-left: 5px;
+
+
+                    img {
+                        max-width: 100%;
+
+                        border-radius: 20px;
+                    }
+
+                    p {
+                        font-size: 10px;
+                        padding: 15px 0;
+                    }
+                }
+            }
+        }
+
+    }
+}
