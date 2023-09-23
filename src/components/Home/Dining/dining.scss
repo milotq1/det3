@@ -101,8 +101,8 @@ body {
                 .list-center {
                     margin-top: 88px;
                     display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    // justify-content: center;
+                    // align-items: center;
 
 
 
@@ -111,6 +111,7 @@ body {
                         text-align: start;
 
                         p {
+                            width: 40%;
                             text-align: start;
                             font-size: 28px;
                             color: #F7F7F2;
