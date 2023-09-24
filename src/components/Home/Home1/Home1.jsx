@@ -1,16 +1,19 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import video from "../../../assets/videos/atlas-card.webm";
 import "./home1.scss";
 
 function Home1() {
 
   const videoRef = useRef(null);
+  const [appear, setAppear] = useState(false)
 
   useEffect(() => {
     if (videoRef.current) {
       
       videoRef.current.playbackRate = 1.5;
     }
+
+    setAppear(true)
   }, []);
   return (
     // <div className="hero">

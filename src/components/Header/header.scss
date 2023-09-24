@@ -1,0 +1,77 @@
+.header-container {
+    background-image: linear-gradient(var(--color1, #e8e0d9),
+            var(--color2, #e7cdd3),
+            var(--color3, #cdd5df),
+            var(--color4, #e8e0d9),
+            var(--color5, #e7cdd3));
+
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+    .fixed-header {
+        padding: 0 16px;
+        max-width: 928px;
+        margin-top: 16px;
+
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: transparent;
+        // backdrop-filter: blur(10px);
+        z-index: 100;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        cursor: pointer;
+        backdrop-filter: blur(36px);
+        background-color: #f0f0f052;
+
+        
+
+        .header-content {
+            max-width: 928px;
+            margin: 0 auto;
+            padding: 10px 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+
+
+            .svg-logo {
+                font-size: 24px;
+                font-weight: bold;
+                color: #141414;
+                cursor: pointer;
+
+
+                svg {
+                    fill: currentColor;
+
+                }
+            }
+
+            .svg-button {
+                color: #141414;
+
+                // padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                font-weight: bold;
+
+                svg {
+                    fill: currentColor;
+
+                }
+            }
+        }
+
+    }
+
+
+
+}
