@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+  font-family: 'Roboto', sans-serif; /* Apply the imported 'Roboto' font here */
+  font-weight: 300;
+}
+
+.card-container {
+    padding: 132px 24px;
+    background-color: #F7F7F2;
+    margin: 0;
+    padding: 0;
+
+    .hero-container {
+        max-width: 928px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        // padding: 0 0 232px;
+
+        .video-wrapper {
+            margin-top: 88px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            video {
+                max-width: 100%;
+                border-radius: 20px;
+                max-height: 740px;
+                min-height: 478px;
+                overflow: hidden;
+                object-fit: cover;
+                // transform: scale(1.5) translate(-50px,100px);
+
+            }
+
+            p {
+                font-size: 12px;
+                line-height: 20px;
+                color: #727272;
+                padding-top: 10px;
+                letter-spacing: 0.1cm;
+            }
+        }
+
+        .hero-text {
+            padding-top: 232px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .hero-title {
+                margin: 0 0 104px;
+
+
+                h4 {
+                    text-align: center;
+                    font-size: 97px;
+                    color: #141414;
+                    // font-family: 'Sofia Sans Condensed', sans-serif;
+                }
+
+            }
+
+            .text {
+                text-align: center;
+
+                .text1 {
+                    p {
+                        color: black;
+                        font-size: 36px;
+                        // font-family: 'Sofia Sans Condensed', sans-serif;
+
+                    }
+                }
+
+                p {
+                    font-size: 36px;
+                    color: #00000080;
+                    // font-family: 'Sofia Sans Condensed', sans-serif;
+
+
+
+
+                }
+            }
+        }
+    }
+
+    .cards {
+        margin: 0 auto;
+        padding-top: 192px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        justify-content: center;
+
+        .cardscards {
+            display: flex;
+            flex-direction: row;
+
+            .card1 {
+                width: 50%;
+                padding: 192px 32px;
+                max-height: 740px;
+                background-image: linear-gradient(180deg, #cbcbcb, #e6e6e6);
+
+                img {
+                    max-width: 100%;
+
+                }
+            }
+
+            .card2 {
+                width: 50%;
+                padding: 192px 32px;
+                background-image: linear-gradient(180deg, #5c5a59, #756f6d);
+
+
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+
+        p {
+            text-align: center;
+            padding-top: 10px;
+
+            small {
+                text-align: center;
+                font-size: 12px;
+                line-height: 20px;
+                color: #727272;
+                // letter-spacing: 0.1cm;
+            }
+        }
+    }
+
+    .list-container {
+        background-color: #F7F7F2;
+
+        display: grid;
+        row-gap: 88px;
+        align-items: center;
+        justify-content: center;
+        padding: 176px 0 0;
+        // border-bottom: 1px solid #727272;
+        padding-bottom: 88px;
+
+       
+
+        .list-wrapper {
+            max-width: 928px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            border-top: 1px solid #c3c3c3;
+            row-gap: 88px;
+            flex-wrap: wrap;
+
+            &:last-child {
+                border-bottom: 1px solid #c3c3c3;
+                padding-bottom: 88px;
+            }
+
+
+
+
+            .list-center {
+                margin-top: 88px;
+                display: flex;
+                // justify-content: center;
+                // align-items: center;
+
+
+
+                .list-title {
+                    width: 50%;
+                    text-align: start;
+
+                    p {
+                        width: 40%;
+                        text-align: start;
+                        font-size: 28px;
+                        color: #141414;
+                        line-height: 120%;
+                    }
+                }
+
+                .list-desc {
+                    width: 50%;
+                    text-align: start;
+
+                    p {
+                        font-size: 24px;
+                        color: #00000080;
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,7 +1,9 @@
-.con-container {
-    background-color: #F7F7F2;
+.apps-container {
 
-    .hero-container2 {
+    background-color: #F7F7F2;
+    border-bottom: 1px solid #c3c3c3;
+
+    .hero-container1 {
 
         background-color: #F7F7F2;
 
@@ -49,25 +51,24 @@
         }
     }
 
-    .img-wrapper {
+    .img-apps-wrapper {
+        background-color: #DADEE6;
         margin: 0 0 16px;
         display: flex;
-        align-items: center;
+        // align-items: center;
         justify-content: center;
-        // margin: 0 auto;
-        background-color: #E6E6E6;
-        height: 798px;
-
+        margin-bottom: 0;
 
         img {
-
+            padding-top: 88px;
             max-width: 928px;
+            max-height: 848px;
         }
     }
 
-    .under-img1 {
+    .under-img {
         text-align: center;
-        padding-top: 0px;
+        padding-top: 10px;
 
         small {
             text-align: center;
@@ -77,10 +78,10 @@
             // letter-spacing: 0.1cm;
         }
 
-
+        
     }
 
-    .list-container3 {
+    .list-container1 {
         background-color: #F7F7F2;
 
         display: grid;
@@ -89,9 +90,9 @@
         justify-content: center;
         padding: 176px 0 0;
         // border-bottom: 1px solid #727272;
-        // padding-bottom: 88px;
+        padding-bottom: 88px;
 
-
+        
 
         .list-wrapper {
             max-width: 928px;
@@ -143,7 +144,7 @@
             }
         }
     }
-
+    
     .img-container1 {
 
 
@@ -154,7 +155,7 @@
         margin: 0 auto;
         color: #727272;
         padding: 152px 24px 232px;
-
+     
 
         .img1 {
 
@@ -168,5 +169,47 @@
                 padding: 15px 0;
             }
         }
+
+        .imgimg {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            column-gap: 2rem;
+
+
+            .img2 {
+                width: 50%;
+                padding-right: 5px;
+
+                img {
+                    max-width: 100%;
+
+                    border-radius: 20px;
+                }
+
+                p {
+                    font-size: 10px;
+                    padding: 15px 0;
+                }
+            }
+
+            .img3 {
+                width: 50%;
+                padding-left: 5px;
+
+
+                img {
+                    max-width: 100%;
+
+                    border-radius: 20px;
+                }
+
+                p {
+                    font-size: 10px;
+                    padding: 15px 0;
+                }
+            }
+        }
     }
+
 }

@@ -3,6 +3,18 @@ body {
     padding: 0;
 }
 
+// @font-face {
+//     font-family: 'miloti';
+//     /* Use single quotes for font family names with spaces or special characters */
+//     src: url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=IBM+Plex+Sans+Condensed:wght@300&display=swap');
+// }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+  font-family: 'Roboto', sans-serif; /* Apply the imported 'Roboto' font here */
+  font-weight: 300;
+}
+
 .dining-container {
 
     background-color: #141414;
@@ -81,7 +93,7 @@ body {
             align-items: center;
             justify-content: center;
             // margin: 176px 0 0;
-            border-bottom: 1px solid #FFFFFF66;
+            border-bottom: 1px solid #c3c3c3;
             padding-bottom: 88px;
             margin: 0 0 176px;
 
@@ -90,7 +102,7 @@ body {
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
-                border-top: 1px solid #FFFFFF66;
+                border-top: 1px solid #c3c3c3;
                 row-gap: 88px;
                 flex-wrap: wrap;
 
@@ -111,7 +123,7 @@ body {
                         text-align: start;
 
                         p {
-                            width: 40%;
+                            width: 50%;
                             text-align: start;
                             font-size: 28px;
                             color: #F7F7F2;

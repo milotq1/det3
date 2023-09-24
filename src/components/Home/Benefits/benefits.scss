@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+  font-family: 'Roboto', sans-serif; /* Apply the imported 'Roboto' font here */
+  font-weight: 300;
+}
+.benefits-container {
+    background-color: #141414;
+    padding: 256px 24px 232px;
+
+    .title-container {
+        padding: 0 0 176px;
+        max-width: 928px;
+        margin: 0 auto;
+
+        .title-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 0 104px;
+
+            h1 {
+                text-align: center;
+                color: #F7F7F2;
+                font-size: 97px;
+                font-family: 'Roboto', sans-serif;
+                /* Apply the imported 'Roboto' font here */
+                font-weight: 100;
+                /* Apply font weight (Thin) */
+            }
+        }
+
+        .title2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h1 {
+                font-size: 36px;
+                color: #F7F7F2;
+                font-family: 'Roboto', sans-serif;
+                /* Apply the imported 'Roboto' font here */
+                font-weight: 100;
+                /* Apply font weight (Thin) */
+            }
+
+            p {
+                color: #FFFFFF66;
+                text-align: center;
+                font-size: 36px;
+                letter-spacing: -.36px;
+                line-height: 140%;
+                font-family: 'Roboto', sans-serif;
+                /* Apply the imported 'Roboto' font here */
+                font-weight: 100;
+                /* Apply font weight (Thin) */
+            }
+        }
+    }
+
+    .list-container4 {
+        display: grid;
+        row-gap: 88px;
+        align-items: center;
+        justify-content: center;
+        // margin: 176px 0 0;
+        // border-bottom: 1px solid #c3c3c3;
+        margin: 0 0 176px;
+
+        .list-wrapper {
+            max-width: 928px;
+            display: flex;
+            flex-direction: row;
+            // align-items: center;
+            // justify-content: center;
+            border-top: 1px solid #c3c3c3;
+            border-bottom: 1px solid #c3c3c3;
+            padding-bottom: 88px;
+
+            row-gap: 88px;
+            flex-wrap: wrap;
+
+            .list-center {
+                margin-top: 88px;
+                display: flex;
+                width: 50%;
+                flex-direction: column;
+                // justify-content: center;
+                // align-items: center;
+
+
+
+                .list-title {
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 100%;
+                    text-align: start;
+                    margin: 0 0 64px;
+
+                    p {
+                        width: 60%;
+                        text-align: start;
+                        font-size: 28px;
+                        color: #F7F7F2;
+                    }
+                }
+
+                .list-desc {
+                    color: #FFFFFF66;
+                    display: flex;
+                    text-align: start;
+                    max-width: 100%;
+
+
+                    ul {
+
+                        list-style: none;
+
+
+                        li {
+                            padding: 10px 0;
+
+                            width: 65%;
+                            font-size: 24px;
+                            color: #FFFFFF66;
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    .btnbtn {
+   
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        a {
+            margin-bottom: 20px;
+            align-items: center;
+            justify-content: center;
+            button {
+                cursor: pointer;
+                align-items: center;
+                background-color: #1940ff;
+                border-radius: 4rem;
+                border: 0;
+                color: white;
+                display: inline-flex;
+                font-size: 23px;
+                justify-content: center;
+                letter-spacing: -1%;
+                line-height: 140%;
+                margin-bottom: 24px;
+                padding: 11px 24px 12px;
+                transition: background-color .15s ease-in-out;
+            }
+        }
+
+        p {
+            color: #FFFFFF66;
+        }
+    }
+}

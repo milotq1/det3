@@ -1,7 +1,23 @@
 * {
     margin: 0;
     padding: 0;
+//     font-family: "Sofia Sans Condensed", sans-serif;
+
+// }
+
+// @font-face {
+//     font-family: 'miloti';
+//     /* Use single quotes for font family names with spaces or special characters */
+//     src: url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=IBM+Plex+Sans+Condensed:wght@300&display=swap');
+// }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+  font-family: 'Roboto', sans-serif; /* Apply the imported 'Roboto' font here */
+  font-weight: 300;
+}
+
 
 .hero-wrapper {
     width: 100%;
@@ -32,7 +48,6 @@
                 font-size: 109px;
                 line-height: 110%;
                 opacity: .2;
-                font-family: "Sequel Sans Book", system-ui, -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 
             }
 
@@ -63,6 +78,8 @@
         max-width: 990px;
 
         p {
+            
+
             text-align: center;
             font-size: 45px;
             opacity: .5;
