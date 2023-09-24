@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer__body {
+    font-family: 'Roboto', sans-serif;
+
+    .footer {
+        background-color: white;
+        padding: 48px 76px;
+        --fallback-fonts: "Sequel Sans Book",system-ui,-apple-system,BlinkMacSystemFont,"Roboto","Helvetica Neue","Helvetica","Arial",sans-serif;
+        margin-top: 30px;
+
+        .content {
+            --text_color: #727272;
+            margin: 0 auto;
+            max-width: 500px;
+            letter-spacing: 0.5px;
+
+            .\@container {
+                container-type: inline-size;
+
+                .imgAtlasi {
+                    margin-bottom: 2rem;
+                    width: 30px;
+                    height: 24px;
+                }
+
+                .footer__part{
+                    display: flex;
+                    flex-direction: column;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    line-height: 20px;
+                    color:  #001391;
+                    gap: .75rem;
+                    align-items: flex-start;
+                    margin-bottom: 2.5rem;
+                    box-sizing: border-box;
+
+                    .footer__grey {
+                        color: #727272;
+                        font-weight: bold;
+
+                    }
+
+                    .footer__blue{
+                        color: #001391;
+                        font-family: "ApercuMono Pro Medium", var("Sequel Sans Book", system-ui, -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif);
+                        font-weight: bold;
+                        text-decoration: none;
+                        border-bottom: 1px solid transparent;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+                .end-footer {
+                    margin-bottom: 2rem;
+                    position: relative;
+
+                    .runner {
+                        bottom: 0;
+                        color: #001391;
+                        position: absolute;
+                        right: 8px;
+
+
+                    }
+
+                }
+                hr{
+                border-color: #001391;
+                margin-top: 10px;
+                margin-bottom: 30px;
+                width: 100%;
+            }
+        }
+        }
+    }
+}

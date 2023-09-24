@@ -6,10 +6,13 @@ import Card from '../components/Home/Card/Card'
 import Apps from '../components/Home/Apps/Apps'
 import Concierge from '../components/Home/Concierge/Concierge'
 import Benefits from '../components/Home/Benefits/Benefits'
+import Header from "../components/Header/Header";
+import Footer from '../components/Footer/Footer'
 
 function Home() {
   return (
     <div>
+      <Header />
       <Home1 />
       <Dining />
       <Travel />
@@ -17,6 +20,7 @@ function Home() {
       <Apps />
       <Concierge />
       <Benefits />
+      <Footer />
     </div>
   )
 }

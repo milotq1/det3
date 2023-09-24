@@ -1,9 +1,10 @@
 import React from 'react'
+import Member from "../components/Membership/Member";
 
 function Membership() {
   return (
     <div>
-      Mem
+        <Member />
     </div>
   )
 }

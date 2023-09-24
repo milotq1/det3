@@ -1,14 +1,17 @@
 import React from "react";
-import "./footer.scss";
-import AtlasImage from "../../assets/Membership/Atlas Logo/AtlasLogo.jpg";
+import "./SecondFooter.scss";
+import AtlasImage from "../../assets/Membership/Atlas Logo/Atlas.jpg";
 import RunnerImage from "../../assets/Membership/Atlas Image/runner.png";
 
-function Footer() {
+function SecondFooter() {
   return (
-    <div className="Footer__body">
+    <div className="footer__body">
       <div className="footer">
         <div className="content">
-          <footer className="container">
+          <footer className="@container">
+            <div className="atlasIcon">
+              <img src={AtlasImage} alt="Atlas Logo" className="imgAtlasi" />
+            </div>
             <div className="footer-pages">
               <div className="footer__part">
                 <div className="footer__grey">Atlas</div>
@@ -107,12 +110,13 @@ function Footer() {
                 </a>
               </div>
 
-              <div className="footer__part">
-                <img src={AtlasImage} alt="atlas image" className="atlasImg"/>
-                <img src={RunnerImage} alt="runner image" className="runnerImg"/>
+              <div className="end-footer">
+                <div className="runner">
+                  <img src={RunnerImage} alt="Runner Image" />
+                </div>
               </div>
+              <hr />
             </div>
-            <hr />
           </footer>
         </div>
       </div>
@@ -120,4 +124,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default SecondFooter;

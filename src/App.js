@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
-import Home from "./pages.jsx/Home";
-import Visa from "./pages.jsx/Visa";
-import Membership from "./pages.jsx/Membership";
+import Home from "./pages/Home";
+import Visa from "./pages/Visa";
+import Membership from "./pages/Membership";
 import Travel from "./components/Home/Travel/Travel";
 // import Main from "./components/Home/Main/Main";
 import Dining from "./components/Home/Dining/Dining";
@@ -11,13 +11,11 @@ import Card from "./components/Home/Card/Card";
 import Benefits from "./components/Home/Benefits/Benefits";
 import Home1 from "./components/Home/Home1/Home1";
 import Apps from "./components/Home/Apps/Apps";
-import Header from "./components/Header/Header";
 
 
 function App() {
   return (
    <Router>
-    <Header />
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/visa" element={<Visa />}/>
