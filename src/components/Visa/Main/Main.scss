@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+
+    .main-section {
+        height: 100%;
+        justify-content: center;
+        display: flex;
+
+        .default-container {
+            border: none;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            padding-top: 110px;
+            padding-bottom: 110px;
+            width: 85%;
+            max-width: 912px;
+            align-self: auto;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 0;
+            padding-right: 0;
+            display: flex;
+            position: static;
+
+            .container__visa {
+                transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                transform-style: preserve-3d;
+                opacity: 1;
+
+                .heading__visa {
+                    max-width: 15ch;
+                    margin-bottom: 40px;
+                    font-size: 5.652em;
+                    margin-top: 10px;
+                    font-family: Sequel Sans Super Display, sans-serif;
+                    font-weight: 500;
+                    line-height: 1;
+                    letter-spacing: -1px;
+
+                    sup {
+                        font-weight: bold;
+                    }
+                }
+
+                .subheading__visa {
+                    max-width: 34ch;
+                    color: rgba(0, 0, 0, 0.4);
+                    margin-bottom: 30px;
+                    font-size: 1.5rem;
+                    line-height: 1.15;
+                    font-family: Sequel Sans Display, sans-serif;
+
+                }
+
+                .button__visa {
+                    align-items: center;
+                    display: flex;
+
+                    .product-link-button {
+                        width: 228px;
+                        height: 52px;
+                        color: #000;
+                        background-color: rgba(0, 0, 0, 0);
+                        border: 1.5px solid #000;
+                        transition: color 0.5s, border-color 0.5s, background-color 0.5s;
+                        margin-top: 0;
+                        margin-right: 20px;
+                        border-radius: 30em;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0 0 2px;
+                        font-size: 1.25em;
+                        text-decoration: none;
+                        max-width: 100%;
+
+                        .link-text {
+                            color: inherit;
+                            transition: none;
+                            font-family: Sequel Sans Display, sans-serif;
+                            text-transform: none;
+                            margin-top: 0;
+                            margin-bottom: 0;
+                            font-size: 0.9em;
+                            font-weight: 400;
+                            text-decoration: none;
+                            line-height: 1.166em;
+                        }
+                    }
+                }
+            }
+        }
+
+        .main-section-background {
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            background-color: #f8f8f8;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            position: absolute;
+            top: 0%;
+            bottom: 0%;
+            left: 0%;
+            right: 0%;
+            overflow: hidden;
+
+            .main-section-background-image {
+                height: 110vh;
+                min-height: 600px;
+                display: block;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                pointer-events: none;
+                user-select: none;
+                max-width: 100%;
+                border: 0;
+            }
+
+            .main-section-background-color {
+                z-index: -1;
+                background-color: rgba(0, 0, 0, 0);
+                background-image: linear-gradient(359.54deg, #bbb, #e4e4e4 13.95%, #e5e5e5);
+                position: absolute;
+                top: 0%;
+                bottom: 0%;
+                left: 0%;
+                right: 0%;
+            }
+        }
+    }
+
+    .visa-benefits {
+        height: 130px;
+        background-color: #f8f8f8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .visa--benefits-text {
+            max-width: 10ch;
+            color: rgba(0, 0, 0, 0.4);
+            font-family: Sequel Sans Headline Book, sans-serif;
+            font-size: 1.125em;
+            font-weight: 500;
+            margin: 0;
+        }
+
+        .vertical-ruler {
+            height: 48px;
+            background-color: rgba(0, 0, 0, 0.2);
+            margin-left: 26px;
+            margin-right: 22px;
+            width: 1px;
+        }
+
+        .visa-infinite-img {
+            pointer-events: none;
+            user-select: none;
+            height: auto;
+            max-width: 100%;
+            border: 0;
+        }
+    }
+}
