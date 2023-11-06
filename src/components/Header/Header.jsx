@@ -69,13 +69,13 @@ function Header() {
                     <p>ATLAS</p>
                   </li>
                   <li>
-                    <Link to="/dining">DINING</Link>
+                    <Link to="#dining" id="#dining">DINING</Link>
                   </li>
                   <li>
-                    <Link to="/travel">TRAVEL</Link>
+                    <Link to="#travel">TRAVEL</Link>
                   </li>
                   <li>
-                    <Link to="/card">CARD</Link>
+                    <Link to="#card">CARD</Link>
                   </li>
                   <li>
                     <Link to="/appS1">APP</Link>
@@ -102,6 +102,8 @@ function Header() {
                 <ul>
                   <li>
                     <p>CONTACT</p>
+                  </li><li>
+                    <Link to="/users">USERS</Link>
                   </li>
                   <li>
                     <Link to="/email">EMAIL</Link>

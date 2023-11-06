@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
-  font-family: 'Roboto', sans-serif; /* Apply the imported 'Roboto' font here */
+  font-family: 'Roboto', sans-serif; 
   font-weight: 300;
 }
 .benefits-container {
@@ -23,9 +23,7 @@
                 color: #F7F7F2;
                 font-size: 97px;
                 font-family: 'Roboto', sans-serif;
-                /* Apply the imported 'Roboto' font here */
                 font-weight: 100;
-                /* Apply font weight (Thin) */
             }
         }
 
@@ -39,9 +37,7 @@
                 font-size: 36px;
                 color: #F7F7F2;
                 font-family: 'Roboto', sans-serif;
-                /* Apply the imported 'Roboto' font here */
                 font-weight: 100;
-                /* Apply font weight (Thin) */
             }
 
             p {
@@ -51,9 +47,7 @@
                 letter-spacing: -.36px;
                 line-height: 140%;
                 font-family: 'Roboto', sans-serif;
-                /* Apply the imported 'Roboto' font here */
                 font-weight: 100;
-                /* Apply font weight (Thin) */
             }
         }
     }

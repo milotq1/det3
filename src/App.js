@@ -11,6 +11,8 @@ import Card from "./components/Home/Card/Card";
 import Benefits from "./components/Home/Benefits/Benefits";
 import Home1 from "./components/Home/Home1/Home1";
 import Apps from "./components/Home/Apps/Apps";
+import Users from "./components/Home/Users/Users";
+import Profile from "./components/Home/Users/Profile";
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
       <Route path="/card" element={<Card />}/>
       <Route path="/benefits" element={<Benefits />}/>
       <Route path="/home1" element={<Home1 />}/>
+      <Route path='/users' element={<Users/>}/>
+      <Route path="/profile/:id" element={<Profile />}/>
     </Routes>
    </Router>
   );

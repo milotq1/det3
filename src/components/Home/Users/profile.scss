@@ -1,0 +1,84 @@
+.profile-container {
+    background-color: #141414;
+    padding: 128px 0 256px;
+    margin: 0 auto;
+
+    h1 {
+        text-align: center;
+        color: #F7F7F2;
+        font-size: 67px;
+    }
+
+    .profile-wrapper {
+        max-width: 928px;
+        margin: 0 auto;
+        // display: flex;
+        // flex-direction: row;
+
+        .profile-info {
+            max-width: 100%;
+            display: flex;
+            flex-direction: row;
+
+
+            .image-wrapper {
+                max-width: 70%;
+                padding: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    max-width: 70%;
+                    border-radius: 20px;
+                }
+            }
+
+            .profile-desc {
+                
+                padding: 15px;
+                align-items: center;
+                justify-content: center;
+                color: #F7F7F2;
+
+                p {
+                    padding: 10px 0;
+
+                    b {
+                        font-weight: bold;
+                    }
+                }
+
+                .user-btn {
+                    margin-top: 10px;
+        
+                    a {
+                        text-decoration: none;
+        
+                        button {
+                            background-color: #F7F7F2;
+                            color: #141414;
+                            font-weight: bold;
+                            border: none;
+                            border-radius: 5px;
+                            padding: 12px 32px;
+                            cursor: pointer;
+                            transition: background-color 0.3s;
+        
+                            &:hover {
+                                
+                                // border: 2px solid #727272;
+                                background-color: #1940ff;
+                            color: #F7F7F2;
+                            border: none;
+
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+       
+    }
+}

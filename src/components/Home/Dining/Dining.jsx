@@ -7,7 +7,7 @@ import thirdpic from "../../../assets/images/cucina-desktop.jpg"
 
 function Dining() {
   return (
-    <div className="dining-container">
+    <div className="dining-container" id="dining">
       <div className="dining-wrapper">
         <div className="title-container">
           <div className="title-wrapper">

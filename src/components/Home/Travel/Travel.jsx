@@ -4,7 +4,7 @@ import travel from "../../../assets/images/travel-desktop (1).webp";
 import { Link } from "react-router-dom";
 function Travel() {
   return (
-    <div className="travel-container">
+    <div className="travel-container" id="travel">
       <div className="travel-wrapper">
         <div className="hero1-wrapper">
           <div className="title-wrapper">

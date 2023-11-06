@@ -1,0 +1,96 @@
+/* users.scss */
+
+.users-container {
+   
+    margin: 0 auto;
+    background-color: #141414;
+    padding: 128px 0 256px;
+
+    h1 {
+        text-align: center;
+        color: #F7F7F2;
+        font-size: 97px;
+    }
+
+    .user-wrapper {
+        margin: 0 auto;
+        max-width: 928px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 40px;
+
+        .user-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            padding: 20px;
+            width: calc(50% - 10px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
+        
+            .card-wrapper {
+                display: flex;
+            }
+        
+            .img-wrapper {
+                flex: 1;
+                margin-right: 20px;
+        
+                img {
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 100%;
+                }
+            }
+        
+            .user-info {
+                flex: 2;
+        
+                h2 {
+                    font-size: 1.5rem;
+                    margin-bottom: 10px;
+                }
+        
+                p {
+                    margin: 5px 0;
+                    font-size: 14px;
+                }
+        
+                .user-btn {
+                    margin-top: 10px;
+        
+                    a {
+                        text-decoration: none;
+        
+                        button {
+                            background-color: #141414;
+                            color: white;
+                            border: none;
+                            border-radius: 5px;
+                            padding: 8px 16px;
+                            cursor: pointer;
+                            transition: background-color 0.3s;
+        
+                            &:hover {
+                                
+                                // border: 2px solid #727272;
+                                background-color: #1940ff;
+                            color: #F7F7F2;
+                            border: none;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

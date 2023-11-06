@@ -13,7 +13,7 @@ function Card() {
     }
   }, []);
   return (
-    <div className="card-container">
+    <div className="card-container" id="card">
       <div className="hero-container">
         <div className="video-wrapper">
           <video
